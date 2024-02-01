@@ -1,0 +1,30 @@
+body{
+    background-color: #b3b3b3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.contenedor-calculadora{
+    width: 400px;
+    height: auto;
+    border-radius: 20px;
+    padding: 15px;
+    background-color: rgb(162, 208, 248);
+    border: 10px double white;
+    outline: 5px dotted rgb(61, 194, 255);
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    justify-content: center;
+}

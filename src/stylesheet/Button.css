@@ -1,0 +1,29 @@
+.btn-contenedor{
+    height: 83px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-size: 38px;
+    background-color: #1b1b32;
+    color: #ffffff;
+    border-radius: 25px;
+    flex: 1 1;
+    margin: 5px;
+    cursor: pointer;
+    user-select: none;
+    border: 2px solid white;
+}
+
+.operador{
+    background-color:peachpuff;
+}
+.btn-contenedor:hover{
+    background-color: #b8a32a;
+    transition: transform .1s ease-in;
+    transform: scale(1.1);
+}
+
+.operador:hover{
+    background-color:rgb(214, 105, 10);
+}
