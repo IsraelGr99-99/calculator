@@ -3,6 +3,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 150vh;
 }
 .container{
     width: 100%;
@@ -27,4 +28,10 @@ body{
     align-items: center;
     margin: 5px;
     justify-content: center;
+}
+
+@media screen and (max-width: 550px){
+    .contenedor-calculadora{
+        width: 80%;
+    }
 }
